@@ -74,7 +74,7 @@ y_pred2 = model2.predict(x_)
 print
 print("Mean squared error: {0:.2f}"
       .format(np.mean((y_pred2 - y_) ** 2)))
-print('Variance score: {0:.2f}'.format(model1.score(x_, y_)))
+print('Variance score: {0:.2f}'.format(model2.score(x_, y_)))
 
 ## Plot the regression
 plt.figure(4)
